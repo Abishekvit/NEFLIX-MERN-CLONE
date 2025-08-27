@@ -1,0 +1,19 @@
+{
+  "name": "backend-netflix",
+  "version": "1.0.0",
+  "description": "A responsive and interactive clone of Netflix’s UI built with HTML, CSS, and JavaScript. This project replicates the look, feel, and structure of the real Netflix web app, including interactive content sections, navigation bar, overlays, and profile switching experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^5.1.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.16.0"
+  }
+}

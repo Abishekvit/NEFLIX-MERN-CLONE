@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Clone</title>
+    <link rel="stylesheet" href="/login.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg">
+</head>
+<body>
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo">
+        </div>
+        <div class="login-box">
+            <h1>Sign Up</h1>
+            <form action="http://localhost:8080/netflix/profile" method="post" >
+                <form action="">
+                <input type="text" placeholder="Email or mobile number" name="username">
+                <input type="password" placeholder="Password" name="password">
+                <button type="submit">Sign Up</button>
+            </form>
+            <form>
+                
+                <div class="or">OR</div>
+                <button type="button" class="code-btn">Use a sign-in code</button>
+                <a href="#" class="forgot">Forgot password?</a>
+                <div class="remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <div class="signup">
+                    New to Netflix? <a href="#">Sign up now.</a>
+                </div>
+                <small>
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot.
+                </small>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

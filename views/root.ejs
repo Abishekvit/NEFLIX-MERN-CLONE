@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>root</title>
+</head>
+<body>
+    <h1>ROOT SERVER</h1>
+    <br>
+    <table>
+    <tr>
+        <th>ID</th>
+        <th>USERNAME</th>
+        <th>PASSWORD</th>
+    </tr>
+<% for (let d of data) { %>
+    <tr>
+        <td><%=d.id  %></td>
+        <td><%=d.username %></td>
+        <td><%=d.password %></td>
+    </tr>
+<% } %>
+</table>
+</body>
+</html>
